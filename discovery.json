@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-11-01",
+  "source": "Public Vinted listing pages indexed by search engine",
+  "disclaimer": "Snapshot only. Listings may sell or change; prices and availability not guaranteed. Not certified deals.",
+  "items": [
+    {
+      "url": "https://www.vinted.fr/items/10590909235-je-vend-collection-de-carte-pokemon",
+      "title": "Collection de cartes Pokémon",
+      "price": 160,
+      "condition": "Très bon état (annoncé)",
+      "note": "Lot non détaillé ; valeur de revente à déterminer carte par carte."
+    },
+    {
+      "url": "https://www.vinted.fr/items/10574005536-pokemon-karten",
+      "title": "Lot de 54 cartes Pokémon (principalement allemandes)",
+      "price": 5,
+      "condition": "Très bon état (annoncé)",
+      "note": "Langue allemande ; frais de livraison et potentiel de revente à vérifier."
+    },
+    {
+      "url": "https://www.vinted.fr/items/10577420269-carte-pokemon",
+      "title": "Carte Pokémon Salamèche (Charmander)",
+      "price": 1,
+      "condition": "Très bon état (annoncé)",
+      "note": "Numéro et extension non précisés ; identification nécessaire."
+    },
+    {
+      "url": "https://www.vinted.fr/items/10574337205-carte-pokemon",
+      "title": "Carte Pokémon non identifiée",
+      "price": 1,
+      "condition": "Très bon état (annoncé)",
+      "note": "Carte non identifiée ; demander des photos et le numéro avant achat."
+    }
+  ]
+}
