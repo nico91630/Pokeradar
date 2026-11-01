@@ -1,0 +1,36 @@
+name: PokéRadar — actualisation et alertes
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pokeradar-feed
+  cancel-in-progress: false
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Importer les annonces et envoyer les alertes
+        env:
+          AUTHORIZED_FEED_URL: ${{ secrets.AUTHORIZED_FEED_URL }}
+          AUTHORIZED_FEED_TOKEN: ${{ secrets.AUTHORIZED_FEED_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MIN_PROFIT_EUR: '20'
+          MIN_ROI_PERCENT: '25'
+        run: python monitor.py
+      - name: Enregistrer le flux et les annonces déjà signalées
+        run: |
+          if ! git diff --quiet -- feed.json alerted.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add feed.json alerted.json
+            git commit -m "Update PokéRadar feed and alert history"
+            git push
+          fi
