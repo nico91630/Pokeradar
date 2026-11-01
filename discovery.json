@@ -1,35 +1,35 @@
 {
   "updated_at": "2026-11-01",
-  "source": "Public Vinted listing pages indexed by search engine",
-  "disclaimer": "Snapshot only. Listings may sell or change; prices and availability not guaranteed. Not certified deals.",
+  "source": "Public search-indexed Vinted pages; not a complete list",
+  "disclaimer": "Selection of recent indexed listings, NOT all listings from Oct 31 and Nov 1. Listing publication dates are relative to crawl time and cannot be confirmed precisely. Availability and prices unverified.",
   "items": [
     {
-      "url": "https://www.vinted.fr/items/10590909235-je-vend-collection-de-carte-pokemon",
-      "title": "Collection de cartes Pokémon",
-      "price": 160,
-      "condition": "Très bon état (annoncé)",
-      "note": "Lot non détaillé ; valeur de revente à déterminer carte par carte."
+      "url": "https://www.vinted.fr/items/10576833356-carte-pokemon",
+      "title": "Trio promo Électhor / Artikodin / Sulfura 30th Celebration",
+      "price": 2,
+      "condition": "Neuf sans étiquette (annoncé)",
+      "note": "Page indexée hier ; ajout relatif « il y a un jour ». Date exacte non vérifiée."
     },
     {
-      "url": "https://www.vinted.fr/items/10574005536-pokemon-karten",
-      "title": "Lot de 54 cartes Pokémon (principalement allemandes)",
-      "price": 5,
-      "condition": "Très bon état (annoncé)",
-      "note": "Langue allemande ; frais de livraison et potentiel de revente à vérifier."
+      "url": "https://www.vinted.fr/items/10560094620-lot-cartes-pokemon",
+      "title": "Lot de cartes Pokémon — description multi-séries",
+      "price": 89,
+      "condition": "Bon état (annoncé)",
+      "note": "Page indexée il y a 4 jours, indiquait « ajouté il y a 6 heures » lors de l'indexation ; date réelle incertaine."
     },
     {
-      "url": "https://www.vinted.fr/items/10577420269-carte-pokemon",
-      "title": "Carte Pokémon Salamèche (Charmander)",
-      "price": 1,
+      "url": "https://www.vinted.fr/items/10572263608-carte-pokemon-lot",
+      "title": "Lot de cartes Pokémon",
+      "price": 10,
       "condition": "Très bon état (annoncé)",
-      "note": "Numéro et extension non précisés ; identification nécessaire."
+      "note": "Page indexée hier, annonçait « il y a 2 jours » ; probablement hors fenêtre hier/aujourd'hui."
     },
     {
       "url": "https://www.vinted.fr/items/10574337205-carte-pokemon",
       "title": "Carte Pokémon non identifiée",
       "price": 1,
       "condition": "Très bon état (annoncé)",
-      "note": "Carte non identifiée ; demander des photos et le numéro avant achat."
+      "note": "Page indexée il y a 2 jours, annonçait « il y a un jour » ; date exacte incertaine."
     }
   ]
 }
